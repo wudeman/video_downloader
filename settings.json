@@ -1,8 +1,8 @@
 {
     "accounts": [
         [
-            "熟人",
-            "https://www.douyin.com/user/MS4wLjABAAAA3xgdieikm--yugm6aHJ9BcFfYoSqgWZVkL9KzzRRoRs?vid=7259390496286461240",
+            "",
+            "https://www.douyin.com/user/MS4wLjABAAAAtgsCM0g8YAtSTdyu3paRHnc9uQaEtDjolgPNtboMGBs",
             "post",
             "2023/7/1",
             "2023/7/25"
@@ -24,35 +24,32 @@
     "time": "%Y-%m-%d %H.%M.%S",
     "split": "-",
     "music": [
-        false,
+        true,
         true
     ],
     "save": "sql",
     "cookie": [
         {
-            "passport_csrf_token": "111",
-            "passport_csrf_token_default": "111",
-            "odin_tt": "111"
-        },
-        {
-            "passport_csrf_token": "222",
-            "passport_csrf_token_default": "222",
-            "odin_tt": "222"
+            "passport_csrf_token": "6f049942db672efb9af3bb0f8b76b181",
+            "passport_csrf_token_default": "6f049942db672efb9af3bb0f8b76b181",
+            "odin_tt": "0cb60766bb61b1d51af7c5401b9d82bcb3db5507d8fda7a371a3e68fc5bc3c00f425fb0b831380863f852688700264eee784d8d6e341ce147084203202cfa8a4",
+            "sessionid": "bf9218d92fa93886407b687a13ac4249",
+            "sessionid_ss": "bf9218d92fa93886407b687a13ac4249"
         }
     ],
     "dynamic": [
-        false,
+        true,
         true
     ],
     "original": [
-        false,
+        true,
         false
     ],
     "proxies": [
         "http://127.0.0.1:15732",
         "http://127.0.0.1:9999"
     ],
-    "log": false,
+    "log": true,
     "download": [
         true,
         false
