@@ -1,0 +1,61 @@
+{
+    "accounts": [
+        [
+            "熟人",
+            "https://www.douyin.com/user/MS4wLjABAAAA3xgdieikm--yugm6aHJ9BcFfYoSqgWZVkL9KzzRRoRs?vid=7259390496286461240",
+            "post",
+            "2023/7/1",
+            "2023/7/25"
+        ]
+    ],
+    "mix": [
+        [
+            "\u5408\u96c6\u6807\u8bc61",
+            "https://www.douyin.com/collection/123, \u652f\u6301\u5408\u96c6\u94fe\u63a5\u4e0e\u4f5c\u54c1\u94fe\u63a5"
+        ],
+        [
+            "\u5408\u96c6\u6807\u8bc62",
+            "https://www.douyin.com/video/123, \u652f\u6301\u957f\u94fe\u63a5\u4e0e\u77ed\u94fe\u63a5"
+        ]
+    ],
+    "root": "./",
+    "folder": "Download",
+    "name": "create_time nickname id desc",
+    "time": "%Y-%m-%d %H.%M.%S",
+    "split": "-",
+    "music": [
+        false,
+        true
+    ],
+    "save": "sql",
+    "cookie": [
+        {
+            "passport_csrf_token": "111",
+            "passport_csrf_token_default": "111",
+            "odin_tt": "111"
+        },
+        {
+            "passport_csrf_token": "222",
+            "passport_csrf_token_default": "222",
+            "odin_tt": "222"
+        }
+    ],
+    "dynamic": [
+        false,
+        true
+    ],
+    "original": [
+        false,
+        false
+    ],
+    "proxies": [
+        "http://127.0.0.1:15732",
+        "http://127.0.0.1:9999"
+    ],
+    "log": false,
+    "download": [
+        true,
+        false
+    ],
+    "retry": 20
+}
