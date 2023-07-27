@@ -175,6 +175,9 @@ class UserData:
             self.__web = WebID.get_web_id(
                 self.headers["User-Agent"]) or "7255854455597598219"
 
+    def get_web_id(self):
+        return self.__web
+
     @property
     def url(self):
         return self._url

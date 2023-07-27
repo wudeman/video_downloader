@@ -27,7 +27,7 @@ def run_time(function):
 class XBogus:
     """代码参考: https://github.com/B1gM8c/X-Bogus/blob/main/X-Bogus.js"""
 
-    def __init__(self, path=r"D:\PycharmProjects\video_downloader\static\js\X-Bogus.js"):
+    def __init__(self, path=r"D:\video_downloader\static\js\X-Bogus.js"):
         self.path = Path(path)
         self.file = self.path.open()
         self.js = compile(self.file.read())
