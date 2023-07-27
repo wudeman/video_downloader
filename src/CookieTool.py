@@ -57,3 +57,27 @@ class Cookie:
             data["cookie"].append({})
         data["cookie"][index] = text
         self.settings.update(data)
+
+    def get_cookie(self, cookie):
+        get_key = {
+            "passport_csrf_token": None,
+            "passport_csrf_token_default": None,
+            "odin_tt": None,
+            "sessionid": None,
+            "sessionid_ss": None,
+        }
+        for i in cookie.split('; '):
+            text = i.split("=", 1)
+            if (k := text[0]) in get_key:
+                get_key[k] = text[1]
+        if all(
+                value for key,
+                value in get_key.items() if key in (
+                        'passport_csrf_token',
+                        'odin_tt')):
+            self.check_key(get_key)
+            return get_key
+        else:
+            print(colored_text("Cookie 缺少必需的键值对！", 93))
+
+        return None
